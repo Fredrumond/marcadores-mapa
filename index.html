@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Google Maps API v3: Criando um mapa personalizado</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <input id="pac-input" class="controls" type="text" placeholder="Informe o local que deseja pesquisar">
+    <div id="mapa" style="height: 500px; width: 700px">
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+
+    <!-- <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBFij9big0-NG6aEgtEuzbdkKTQ716esc0&amp;sensor=false"></script> -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=&libraries=places&callback=initialize" async defer></script>
+    <!-- Arquivo de inicialização do mapa -->
+    <script src="js/mapa.js"></script>
+</body>
+
+</html>
